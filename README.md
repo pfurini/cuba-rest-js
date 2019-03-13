@@ -1,6 +1,6 @@
 # CUBA REST JS
 
-[![Build Status](https://travis-ci.org/cuba-platform/cuba-rest-js.svg?branch=master)](https://travis-ci.org/cuba-platform/cuba-rest-js)
+[![Build Status](https://travis-ci.org/pfurini/cuba-rest-js.svg?branch=master)](https://travis-ci.org/pfurini/cuba-rest-js)
 
 JavaScript library for web and Node.js which facilitates CUBA Platfotm's REST API usage.
  
@@ -9,25 +9,17 @@ JavaScript library for web and Node.js which facilitates CUBA Platfotm's REST AP
 ### npm
 
 ```bash
-npm install @cuba-platform/rest --save
+npm install @nexbit/cuba-rest --save
 ```
 Import as module  
 ```javascript
-const cuba = require('@cuba-platform/rest');
+const cuba = require('@nexbit/cuba-rest');
 ```
 
 Or using ES6 imports:
 
 ```javascript
-import * as cuba from '@cuba-platform/rest';
-```
-
-### bower
-```bash
-bower install cuba-platform/cuba-rest-js
-```
-```html
-<script src="./bower_components/cuba-rest-js/dist-browser/cuba.js">
+import * as cuba from '@nexbit/cuba-rest';
 ```
 
 
@@ -46,7 +38,7 @@ fetch = require('node-fetch');
 ## Usage
 
 ```javascript
-import * as cuba from 'cuba-rest-js';
+import * as cuba from '@nexbit/cuba-rest';
 
 const app = cuba.initializeApp({
   name: 'myApp',

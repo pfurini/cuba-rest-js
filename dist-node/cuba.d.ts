@@ -97,10 +97,10 @@ export declare class CubaApp {
     onEnumsLoaded(c: any): () => ((enums: any[]) => {})[];
     onMessagesLoaded(c: any): () => ((messages: any[]) => {})[];
     cleanup(): void;
-    private isTokenExpiredResponse(resp);
-    private _getBasicAuthHeaders();
-    private checkStatus(response);
-    private clearAuthData();
+    private isTokenExpiredResponse;
+    private _getBasicAuthHeaders;
+    private checkStatus;
+    private clearAuthData;
 }
 export declare function getBasicAuthHeaders(client: string, secret: string, locale?: string): {
     [header: string]: string;

@@ -59,5 +59,5 @@ export interface View {
 export declare enum PredefinedView {
     MINIMAL = "_minimal",
     LOCAL = "_local",
-    BASE = "_base",
+    BASE = "_base"
 }
